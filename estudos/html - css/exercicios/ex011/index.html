@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+
+    <picture>
+        <source media="(max-width: 700px)" srcset="imagens/golfinhoP.avif" type="image/png">
+        <source media="(max-width: 1000px)" srcset="imagens/golfinhoM.avif" type="image/png">
+        <img src="imagens/golfinhoG.avif" alt="imagem golfinho">
+    </picture>
+
+    <h2>Vamos aprender a reproduzir audios em HTML5</h2>
+    <audio src="media/meme.mp3" controls autoplay ></audio>
+
+</body>
+</html>
