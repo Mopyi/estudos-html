@@ -3,14 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meus Vídeos favoritos</title>
+    <title>Vídeos Legais</title>
+    <style>
+        /* ADICIONAR ESTILOS EM CSS */
+        .video-item {
+            float: left;
+            width: 50%;
+            box-sizing: border-box;
+            padding: 10px;
+        }
+        @media (max-width: 600px) {
+            .video-item {
+                width: 100%;
+            }
+        }
+    </style>
 </head>
 <body>
-    <h1>Vídeos legais para assistir</h1>
-<pre>
-                <img src="media/historia.png" alt="capa vídeo historia da internet"><a href=""></a>  <img src="media/java.png" alt="capa curso java">
-                <img src="media/hardware.png" alt="capa hardware"> <img src="media/programador.png" alt="capa seja um programador">
-
-</pre>
+    <h1>Vídeos Legais para Assistir</h1>
+    <div class="video-list">
+        <div class="video-item">
+            <a href="pag01.html"><img src="media/historia.png" alt="Vídeo 1"></a>
+        </div>
+        <div class="video-item">
+            <a href="pag02.html"><img src="media/java.png" alt="Vídeo 2"></a>
+        </div>
+        <div class="video-item">
+            <a href="pag03.html"><img src="media/hardware.png" alt="Vídeo 3"></a>
+        </div>
+        <div class="video-item">
+            <a href="pag04.html"><img src="media/programador.png" alt="Vídeo 4"></a>
+        </div>
+    </div>
 </body>
 </html>
